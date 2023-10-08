@@ -39,7 +39,7 @@ def get_syllable_count(word: str, lang: str = "en_US") -> int:
 
 
 def generate_words(
-        word_types: Union[WordType, List[WordType]] = list(WordType),
+        word_types: Union[WordType, List[WordType], None] = None,
         min_syllables: int = 1,
         max_syllables: int = 5,
         num_words: int = 10
