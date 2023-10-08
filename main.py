@@ -6,7 +6,7 @@ from nltk.corpus import words
 from nltk.tag import pos_tag
 from pyphen import Pyphen
 
-# nltk.download("averaged_perceptron_tagger")
+nltk.download("averaged_perceptron_tagger")
 
 
 class WordType(Enum):
